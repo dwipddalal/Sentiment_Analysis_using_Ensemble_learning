@@ -14,15 +14,22 @@ dictionary - It contains 239231 different phrases from the above datasetSentence
 sentiment_labels - It contains the sentiment value of each above-mentioned phrases corresponding to their phraseID. The values range from 0.00 (most negative) to 1.00 (least positive).
 datasetSplit - It is an optional file that has just been made to divide the data into test, train, and validation datasets.
 
-### Applied Approach to the problem:
+## Applied Approach to the problem:
 Dataset visualization and data analysis.
 Splitting the data into train, test, and validation sets.
 Tokenization of the dictionary.
 Word embedding of the reviews.
 Training 3 different models: LSTM, Bidirectional LSTM, and Feedforward neural network
 Integrated stacking of three different neural networks into an ensemble model.
-Various Techniques used in the model:
-Feedforward neural networks • LSTM • Bidirectional LSTM • early stopping • tokenization • padding • integrated stacking (meta learner's neural network) • word embeddings
+## Various Techniques used in the model:
+Feedforward neural networks
+• LSTM 
+• Bidirectional LSTM
+• early stopping 
+• tokenization
+• padding 
+• integrated stacking (meta learner's neural network) 
+• word embeddings
 
 Author Information:
 Dwip Dalal
