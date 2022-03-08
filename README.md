@@ -31,5 +31,3 @@ Feedforward neural networks
 • integrated stacking (meta learner's neural network) 
 • word embeddings
 
-Author Information:
-Dwip Dalal
