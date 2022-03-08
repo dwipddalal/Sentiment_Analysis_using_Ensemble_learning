@@ -9,10 +9,10 @@ Rotten Tomatoes contains reviews of movies and thus, is a great place to get dat
 ## Exploring the data:
 The dataset contains tab and | separated .txt files with phrases from the Rotten Tomatoes dataset. The dataset includes four different files - datasetSentences, datasetSplit, dictionary, and sentiment_labels.
 
-datasetSentences - It contains 11855 different sentences which have been further divided into different phrases.
-dictionary - It contains 239231 different phrases from the above datasetSentences. Each phrase has been given a unique phrase identifier called the PhraseID.
-sentiment_labels - It contains the sentiment value of each above-mentioned phrases corresponding to their phraseID. The values range from 0.00 (most negative) to 1.00 (least positive).
-datasetSplit - It is an optional file that has just been made to divide the data into test, train, and validation datasets.
+*datasetSentences - It contains 11855 different sentences which have been further divided into different phrases.
+*dictionary - It contains 239231 different phrases from the above datasetSentences. Each phrase has been given a unique phrase identifier called the PhraseID.
+*sentiment_labels - It contains the sentiment value of each above-mentioned phrases corresponding to their phraseID. The values range from 0.00 (most negative) to 1.00 (least positive).
+*datasetSplit - It is an optional file that has just been made to divide the data into test, train, and validation datasets.
 
 ## Applied Approach to the problem:
 Dataset visualization and data analysis.
